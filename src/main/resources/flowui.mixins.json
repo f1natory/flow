@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "flow.ui.inject",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ContainerScreenMixin",
+    "CreativeInventoryScreenMixin",
+    "GuiMixin",
+    "InventoryScreenMixin",
+    "MinecraftScreenMixin",
+    "PlayerTabOverlayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

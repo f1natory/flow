@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "flow_ui",
+  "version": "${version}",
+  "name": "FlowUI",
+  "description": "Add smooth animation!",
+  "authors": [
+    "f1natory"
+  ],
+  "license": "MIT",
+  "icon": "assets/flowui/pack.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "flow.ui.utils.CmdUtil"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "flowui.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
